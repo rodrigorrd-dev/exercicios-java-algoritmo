@@ -1,0 +1,20 @@
+-- INSERT INTO users (username, email, password_hash, role, bio)
+-- VALUES
+--     ('alice', 'alice@example.com', 'hash_senha_alice', 'admin', 'Desenvolvedora backend apaixonada por café ☕'),
+--     ('bob', 'bob@example.com', 'hash_senha_bob', 'user', 'Engenheiro de software fullstack.'),
+--     ('carol', 'carol@example.com', 'hash_senha_carol', 'user', 'UX designer criativa.'),
+--     ('dave', 'dave@example.com', 'hash_senha_dave', 'moderator', 'Modera discussões e revisa posts.');
+--
+-- INSERT INTO follows (following_user_id, followed_user_id)
+-- VALUES
+--     (1, 2),
+--     (1, 3),
+--     (2, 1),
+--     (3, 4);
+--
+-- INSERT INTO posts (title, body, user_id, status)
+-- VALUES
+--     ('Bem-vindos ao sistema!', 'Esse é meu primeiro post na plataforma.', 1, 'published'),
+--     ('Dicas de produtividade', 'Trabalhar em blocos de 25 minutos ajuda muito.', 2, 'published'),
+--     ('Novidades no design', 'Acabei de criar novos protótipos para o app.', 3, 'draft'),
+--     ('Regras da comunidade', 'Por favor, respeitem uns aos outros.', 4, 'published');

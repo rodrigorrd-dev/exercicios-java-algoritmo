@@ -1,0 +1,39 @@
+
+spring:
+  application.name: redesocial
+
+# *************DB POSTGRES*************
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/postgres?currentSchema=redesocial&options=-c%20timezone%3DUTC&charset=UTF-8"
+    diver-class-name: org.postgresql.Driver
+    username: root
+    password: 123
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+
+# *************PERFIL*************
+spring.profiles:
+  active: rodrigo
+
+# *************PORTA*************
+server:
+  port: 8081
+
+# *************FLYWAY DB*************
+spring.flyway:
+  locations: "classpath:db/migration,classpath:db/data"
+#  baseline-on-migrate: true
+
+# *************CONFIG DE REQUISICOES DB*************
+spring.datasource:
+  hikari:
+    maximum-pool-size: 5
+    minimum-idle: 3
+    idle-timeout: 10000
+
+# *************Jackson*************
+  deserialization:
+    fail-on-ignored-properties: true
