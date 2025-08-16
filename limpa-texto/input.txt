@@ -1,0 +1,83 @@
+Produto 001 - Notebook Lenovo LOQ 15
+
+Produto 002 - Smartphone Samsung Galaxy
+
+Produto 003 - Monitor LG 24 polegadas
+
+
+Produto 004 - Teclado Mecânico Redragon
+
+Produto 005 - Mouse Gamer Logitech
+
+Produto 006 - Headset HyperX
+
+
+Produto 007 - Impressora Epson EcoTank
+
+Produto 008 - HD Externo Seagate 1TB
+
+Produto 009 - SSD NVMe Kingston 512GB
+
+
+
+Produto 010 - Placa de Vídeo RTX 4060
+
+Produto 011 - Memória RAM Corsair 16GB
+
+Produto 012 - Fonte 650W Corsair
+
+
+Produto 013 - Placa-mãe ASUS TUF B550
+
+Produto 014 - Gabinete Cooler Master
+
+Produto 015 - Cadeira Gamer ThunderX3
+
+
+Produto 016 - Mesa Escritório Ajustável
+
+Produto 017 - Luminária de LED
+
+Produto 018 - Caixa de Som JBL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Produto 019 - Smartwatch Amazfit
+
+Produto 020 - Tablet iPad 10ª geração
+
+Produto 021 - Kindle Paperwhite
+
+Produto 022 - Webcam Logitech C920
+
+Produto 023 - Microfone Blue Yeti
+
+
+Produto 024 - Switch TP-Link 8 portas
+
+Produto 025 - Roteador Wi-Fi 6 ASUS
+
