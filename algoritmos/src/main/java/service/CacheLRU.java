@@ -5,8 +5,8 @@ import impl.EvictionPolicy;
 import validation.CacheValid;
 
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.Map;
+
 
 public class CacheLRU<K, V> implements Cache<K, V> {
 
@@ -38,7 +38,7 @@ public class CacheLRU<K, V> implements Cache<K, V> {
     }
 
     public CacheLRU<K, V> setPolicy(EvictionPolicy<K> policy) {
-        if (policy == null) throw new IllegalArgumentException("policy == null");
+        if (policy == null) throw new IllegalArgumentException("java.policy == null");
         this.policy = policy;
         policy.clear();
         for (K k : store.keySet()) policy.onPut(k);
@@ -88,7 +88,7 @@ public class CacheLRU<K, V> implements Cache<K, V> {
 
     private void ensureConfigured() {
         if (policy == null)
-            throw new IllegalStateException("Cache não configurado. Use configure(cfg) ou setPolicy/setCapacity.");
+            throw new IllegalStateException("Cache não configurado. Use valid ou setPolicy/setCapacity.");
     }
 
 }
